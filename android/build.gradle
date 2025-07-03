@@ -44,7 +44,7 @@ android {
     }
 
     kotlinOptions {
-        jvmTarget = '17'
+        jvmTarget = '1.8'
     }
     dependencies {
         implementation "com.pusher:pusher-java-client:2.2.5"
