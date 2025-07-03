@@ -25,7 +25,9 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 34
+    compileSdkVersion 35
+    namespace   "pusher_client"
+
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
